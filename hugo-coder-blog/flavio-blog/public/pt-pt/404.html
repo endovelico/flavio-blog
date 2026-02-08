@@ -3,7 +3,105 @@
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1414&amp;path=livereload" data-no-instant defer></script><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1414&amp;path=livereload" data-no-instant defer></script>
   <title>flaviosousa</title>
-  <meta charset="utf-8">
+
+<style>
+ 
+.centered {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+ 
+.image-circle {
+  width: 250px;
+  height: 250px;
+  margin: 2rem auto;  
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--accent-color);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ 
+.image-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--accent-color);
+}
+
+ 
+h1 {
+  font-size: 3rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+p {
+  font-size: 1.25rem;
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+ 
+a.btn {
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a.btn:hover {
+  background: var(--accent-color-hover, #555);
+}
+
+a.btn.outline {
+  background: transparent;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+a.btn.outline:hover {
+  background: var(--accent-color);
+  color: white;
+}
+
+ 
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  .image-circle {
+    width: 120px;
+    height: 120px;
+  }
+}
+</style>
+
+
+
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light dark">
 
@@ -157,7 +255,7 @@
     <h1>404</h1>
     <h2>Page Not Found</h2>
     <div class="image-circle">
-  	<img src="/images/avatar.jpg" alt="Avatar">
+  	<img src="/images/meninos.jpg" alt="Avatar">
     </div>
     <p>Sorry, this page does not exist. But I have my puppies as conselement :)<br />You can head back to the <a href="http://localhost:1414/">homepage</a>.</p>
   </div>
@@ -170,7 +268,6 @@
   <section class="container">
     ©
     
-      2019 -
     
     2026
      Flavio Sousa 
