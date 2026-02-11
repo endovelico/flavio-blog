@@ -28,7 +28,7 @@ description = "Flavio Sousa's personal website"
 keywords = "blog,developer,personal"
 info = ["Software Engineer", "Debutant", "Canvas"]
 avatarURL = "images/flavio_chest.jpg"
-#gravatar = "john.doe@example.com"
+#gravatar = "senabrasousa@gmail.com"
 dateFormat = "January 2, 2006"
 since = 2019
 # Git Commit in Footer, uncomment the line below to enable it
@@ -145,31 +145,31 @@ author = "authors"
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
-url = "https://github.com/johndoe/"
+url = "https://github.com/endovelico/"
 
 [[params.social]]
 name = "Gitlab"
 icon = "fa-brands fa-gitlab fa-2x"
 weight = 2
-url = "https://gitlab.com/johndoe/"
+url = "https://github.com/endovelico/"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa-brands fa-x-twitter fa-2x"
 weight = 3
-url = "https://twitter.com/johndoe/"
+url = "https://twitter.com/endovelico/"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
+url = "https://www.linkedin.com/in/flavio-senabra-sousa/"
 
 [[params.social]]
 name = "Medium"
 icon = "fa-brands fa-medium fa-2x"
 weight = 5
-url = "https://medium.com/@johndoe"
+url = "https://medium.com/@flaviosousa"
 
 [[params.social]]
 name = "RSS"
